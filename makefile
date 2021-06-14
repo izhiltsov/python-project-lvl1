@@ -19,12 +19,12 @@ package-install:
 publish:
 	poetry publish --dry-run
 
-brain-games:
-	poetry run brain-games
+br-games:
+	poetry run br-games
 
 check: selfcheck test lint
 
-build: check
+build:
 	poetry build
 
 .PHONY: install test lint selfcheck check build
