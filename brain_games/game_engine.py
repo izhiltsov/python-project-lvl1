@@ -3,7 +3,7 @@ from brain_games.cli import get_user_name, get_user_answer
 
 def game_engine(game_data, game_description):
     user_name = get_user_name()
-    print(game_description)
+    print(game_description())
     play_count = 3
     for i in range(play_count):
         [question, correct_answer] = game_data()

@@ -1,6 +1,6 @@
-from random import randint
+from random import randrange
 
 
-def get_random_number():
-    random_number = randint(1, 50)
+def get_random_number(range=100):
+    random_number = randrange(range)
     return random_number
