@@ -20,6 +20,7 @@ br-even = "brain_games.scripts.brain_even:main"
 br-calc = "brain_games.scripts.brain_calc:main"
 br-gcd = "brain_games.scripts.brain_gcd:main"
 br-pr = "brain_games.scripts.brain_progression:main"
+br-prime = "brain_games.scripts.brain_prime:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
