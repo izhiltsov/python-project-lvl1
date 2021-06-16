@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.4.0"
+version = "0.5.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 packages = [
@@ -19,6 +19,7 @@ br-games = "brain_games.scripts.brain_games:main"
 br-even = "brain_games.scripts.brain_even:main"
 br-calc = "brain_games.scripts.brain_calc:main"
 br-gcd = "brain_games.scripts.brain_gcd:main"
+br-pr = "brain_games.scripts.brain_progression:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
