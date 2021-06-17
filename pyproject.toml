@@ -15,12 +15,12 @@ prompt = "^0.4.1"
 flake8 = "^3.9.2"
 
 [tool.poetry.scripts]
-br-games = "brain_games.scripts.brain_games:main"
-br-even = "brain_games.scripts.brain_even:main"
-br-calc = "brain_games.scripts.brain_calc:main"
-br-gcd = "brain_games.scripts.brain_gcd:main"
-br-pr = "brain_games.scripts.brain_progression:main"
-br-prime = "brain_games.scripts.brain_prime:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-rogression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
